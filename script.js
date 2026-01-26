@@ -43,3 +43,11 @@ function formatDate(date) {
   let formattedDay = days[day];
   return `${formattedDay} ${hours}:${minutes}`;
 }
+
+let searchForm = document.querySelector("#Search-form");
+searchForm.addEventListener("submit", search);
+
+let currentDateElement = document.querySelector("#current-date");
+let currentDate = new Date();
+
+currentDateElement.innerHTML = formatDate(currentDate);
