@@ -10,7 +10,7 @@ a {
 .weather-app {
   background: white;
   max-width: 600px;
-  margin: 60px auto;
+  margin: 40px auto;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 40px 60px rgba(55, 50, 100, 0.88);
